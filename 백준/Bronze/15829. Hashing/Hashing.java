@@ -16,6 +16,6 @@ public class Main {
         	hash += ((c- 'a'+1)*r) % m;
         	r = (r * 31) % m;
         }
-        System.out.print(hash);
+        System.out.print(hash%m);
     }
 }
